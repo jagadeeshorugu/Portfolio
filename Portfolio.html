@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 1rem;
+      object-fit: cover;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    nav {
+      background: white;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #764ba2;
+    }
+
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #764ba2;
+    }
+
+    .about {
+      text-align: center;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .projects, .certifications {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+      object-fit: cover;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #333;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Replace profile.jpg with your own photo -->
+    <img src="D:\OneDrive\Desktop\dp.jpeg" alt="Profile Photo">
+    <h1> Hi, I'm Orugu Jagadeesh 👋</h1>
+    <p>Aspiring Web Developer & Data Enthusiast</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hello! I am a passionate student and developer who loves building modern, clean, and interactive websites. I enjoy learning new technologies and creating meaningful projects. Here is my portfolio with my photo and certifications.</p>
+  </section>
+  <h2>My Project</h2>
+
+<p>
+  🌐 Visit my website: 
+  <a href="file:///D:/OneDrive/Desktop/index.html" target="_blank">file:///D:/OneDrive/Desktop/index.html</a>
+</p>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>A clean and modern portfolio built with HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="card">
+        <h3>Happy Tasty Food Website</h3>
+        <p>A responsive website was created with my knowledge using html css js .</p>
+      </div>
+      <div class="card">
+        <h3>Final Project</h3>
+        <p>Intelligent traffic system for urban condition using real-time vechicle tracking .</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>My Certifications</h2>
+    <div class="certifications">
+      <div class="card">
+        <img src="D:\OneDrive\Desktop\java1.jpg" alt="Certification 1">
+        <h3>Java basics</h3>
+        <p>Completed a professional web development certification program.</p>
+      </div>
+      <div class="card">
+        <img src="D:\OneDrive\Desktop\dbms.jpg" alt="Certification 2">
+        <h3>Data base</h3>
+        <p>I has received award for successfully completing the course introduction to database concepts.</p>
+      </div>
+      <div class="card">
+        <img src="D:\OneDrive\Desktop\Hi - Copy.jpg" alt="Certification 3">
+        <h3>Hacker Ranker</h3>
+        <p>I was cleared my Problem Solving certificate in hacker ranker.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Phone no:8341704239</p>
+    <p> Email:<a href="mailto:youremail@example.com">orugujagadeesh@gmail.com</a></p>
+    <p>LinkedIn: <a href="#">www.linkedin.com/in/jagadeeshorugujai/yourprofile</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Jagadeesh. All rights reserved.</p>
+  </footer>
+</body>
+</html>
